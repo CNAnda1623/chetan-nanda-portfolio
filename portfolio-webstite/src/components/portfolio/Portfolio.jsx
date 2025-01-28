@@ -27,15 +27,15 @@ const items = [
   {
     id: 4,
     img: "/p4.jpg",
-    title: "Social Media Project",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure laboriosam tempore consectetur, atque maiores culpa quia, repellat id, dicta esse fugit neque voluptatem provident itaque voluptates minima. Repudiandae, provident hic.",
-    link: "/",
+    title: "Facial Recognition Software",
+    desc: "Developed a Python-based face recognition system using machine learning to automate face recognition management and generate detailed reports.",
+    link: "https://github.com/CNAnda1623/Personal_Portfolio",
   },
   {
     id: 5,
     img: "/p5.jpg",
-    title: "Animated Portfolio Website",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure laboriosam tempore consectetur, atque maiores culpa quia, repellat id, dicta esse fugit neque voluptatem provident itaque voluptates minima. Repudiandae, provident hic.",
+    title: "Portfolio Website",
+    desc: "Created a dynamic, responsive personal portfolio website using HTML, CSS, and JavaScript to showcase my skills, projects, and information.",
     link: "/",
   },
 ];

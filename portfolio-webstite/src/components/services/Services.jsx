@@ -139,53 +139,6 @@ const Services = () => {
         </div>
         </motion.div>
           
-        {/* <div class="skills-grid">
-          <div class="line">01. Java</div>
-          <div class="line">02. Python</div>
-          <div class="line">03. Django</div>
-          <div class="line">04. C</div>
-          <div class="line">05. HTML/CSS/JS</div>
-          <div class="line">06. React</div>
-          <div class="line">07. SQL</div>
-          <div class="line">08. Git/Github</div>
-          <div class="line">09. Data Structures</div>
-        </div> */}
-        {/* <div class="skills__container container grid">
-               <div class="skills__data">
-                  <h3 class="section__subtitle">
-                     Favorite <span>Skills</span>
-                  </h3>
-
-                  <h2 class="section__title">
-                     My Skills
-                  </h2>
-
-                  <p class="skills__description">
-                     See fully what skills I have and perform, 
-                     to develop the projects for you.
-                  </p>
-
-                  <a href="#projects" class="button">See Projects</a>
-               </div>
-               <div class="skills__content">
-                  <ol class="skills__group">
-                     <li class="skills__item">Python</li>
-                     <li class="skills__item">Java</li>
-                     <li class="skills__item">C/C++</li>
-                     <li class="skills__item">Django</li>
-                     <li class="skills__item">Html/Css/JS</li>
-                     <li class="skills__item">React</li>
-                  </ol>
-
-                  <ol class="skills__group" start="7">
-                     <li class="skills__item">SQL</li>
-                     <li class="skills__item">Git/Github</li>
-                     <li class="skills__item">Data Structures</li>
-                     <li class="skills__item">OOPS</li>
-                     <li class="skills__item">DBMS</li>
-                  </ol>
-               </div>
-            </div> */}
       </div>
     </div>
   );

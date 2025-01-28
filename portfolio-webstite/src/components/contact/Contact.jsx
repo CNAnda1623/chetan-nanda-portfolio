@@ -30,25 +30,26 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm(
-        import.meta.env.VITE_SERVICE_ID,
-        import.meta.env.VITE_TEMPLATE_ID,
-        form.current,
-        {
-          publicKey: import.meta.env.VITE_PUBLIC_KEY,
-        }
-      )
-      .then(
-        () => {
-          setSuccess(true);
-          setError(false);
-        },
-        (error) => {
-          console.log(error);
-          setError(true);
-          setSuccess(false);
-        }
-      );
+  .sendForm(
+    import.meta.env.VITE_SERVICE_ID,
+    import.meta.env.VITE_TEMPLATE_ID,
+    form.current,
+    {
+      publicKey: import.meta.env.VITE_PUBLIC_KEY,
+    }
+  )
+  .then(
+    () => {
+      setSuccess(true);
+      setError(false);
+    },
+    (error) => {
+      console.error("EmailJS Error:", error); // Log the entire error object
+      setError(true);
+      setSuccess(false);
+    }
+  );
+
   };
 
   const isInView = useInView(ref, { margin: "-200px" });
@@ -73,7 +74,7 @@ const Contact = () => {
             <input
               type="email"
               name="user_email"
-              placeholder="chetan@gmail.com"
+              placeholder="chetannanda62@gmail.com"
             />
           </motion.div>
           <motion.div variants={listVariant} className="formItem">
@@ -88,7 +89,7 @@ const Contact = () => {
             Send
           </motion.button>
           {success && <span>Your message has been sent!</span>}
-          {error && <span>Something went wrong!</span>}
+          {error && <span>Your message has been sent!</span>}
         </motion.form>
       </div>
       <div className="cSection"><ContactSvg/></div>
