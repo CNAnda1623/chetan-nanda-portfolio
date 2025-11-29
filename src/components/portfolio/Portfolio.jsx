@@ -5,38 +5,38 @@ import { motion, useInView, useScroll, useTransform } from "motion/react";
 const items = [
   {
     id: 1,
-    img: "/p1.jpg",
+    img: "/projects/p1.jpg",
     title: "Workspace Management System",
     desc: "Developed a comprehensive Workspace Management System using Python,designed to streamline and optimize workspace allocation and management",
     link: "https://github.com/omkar2816/Workspace-Management-System"
   },
   {
     id: 2,
-    img: "/p2.jpg",
-    title: "Course Management System",
+    img: "/projects/p2.jpg",
+    title: "Engineering Era",
     desc: "Developed a scalable Course Management Website with a responsive dashboard, secure login, customizable modules, progress tracking, course statistics, feedback tools, and secure educator-student communication.",
-    link: "https://github.com/CNAnda1623/Course-Management-System-main",
+    link: "https://github.com/omkar2816/engineering-era",
   },
   {
     id: 3,
-    img: "/p3.jpg",
-    title: "Arcade Games",
-    desc: "Developed a Python Arcade Games collection featuring Snake, Ping-Pong, and Turtle Crossing, using Turtle Graphics and Tkinter. Implemented OOP concepts for file management",
-    link: "https://github.com/CNAnda1623/Arcade-Games",
+    img: "/projects/p3.jpg",
+    title: "SkillMatch Pro",
+    desc: "Developed an NLP-driven Resume Intelligence System that extracts skills from resumes, matches them against Job Description (JD) requirements, and ranks candidates based on skill similarity scores. The app also highlights top candidates, displays match percentages, and visualizes skill coverage and gaps.",
+    link: "https://github.com/CNAnda1623/Resume_Skill_Extracter",
   },
   {
     id: 4,
-    img: "/p4.jpg",
+    img: "/projects/p4.jpg",
     title: "Facial Recognition Software",
     desc: "Developed a Python-based face recognition system using machine learning to automate face recognition management and generate detailed reports.",
-    link: "https://github.com/CNAnda1623/Personal_Portfolio",
+    link: "https://github.com/CNAnda1623/FaceRecognition",
   },
   {
     id: 5,
-    img: "/p5.jpg",
-    title: "Portfolio Website",
-    desc: "Created a dynamic, responsive personal portfolio website using HTML, CSS, and JavaScript to showcase my skills, projects, and information.",
-    link: "/",
+    img: "/projects/p5.jpg",
+    title: "FireChat-Community Chat App",
+    desc: "Developed a real-time group chat web application using React and Firebase. Implemented Google Authentication, live message synchronization, and media file uploads via Firebase Storage. Designed a smooth and responsive UI for seamless community communication.",
+    link: "https://firechatt.netlify.app",
   },
 ];
 

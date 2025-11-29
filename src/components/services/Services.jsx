@@ -40,20 +40,20 @@ const listVariants = {
 const services = [
   {
     id: 1,
-    img: "/service1.png",
-    title: "Web Development",
-    counter: 3,
+    img: "/services/service1.png",
+    title: "Web Projects",
+    counter: 6,
   },
   {
     id: 2,
-    img: "/service2.png",
-    title: "Software Developer",
+    img: "/services/service2.png",
+    title: "Software Projects",
     counter: 3,
   },
   {
     id: 3,
-    img: "/service3.png",
-    title: "ML Engineer",
+    img: "/services/service3.png",
+    title: "ML Projects",
     counter: 1,
   },
 ];
@@ -95,7 +95,7 @@ const Services = () => {
           ))}
         </motion.div>
         <div className="counterList">
-          <Counter from={0} to={7} text="Projects Completed" />
+          <Counter from={0} to={10} text="Projects Completed" />
           <Counter from={0} to={15} text="Skills" />
         </div>
       </div>
@@ -120,21 +120,21 @@ const Services = () => {
         >
         <div class="skill-box">
           <div class="grid">
-              <div class="box"><img src="HTML1.png" alt="Logo 1"/></div>
-              <div class="box"><img src="CSS.png" alt="Logo 2"/></div>
-              <div class="box"><img src="JS1.png" alt="Logo 3"/></div>
-              <div class="box"><img src="react.png" alt="Logo 4"/></div>
-              <div class="box"><img src="node.png" alt="Logo 5"/></div>
-              <div class="box"><img src="ex.png" alt="Logo 6"/></div>
-              <div class="box"><img src="java.png" alt="Logo 7"/></div>
-              <div class="box"><img src="python.png" alt="Logo 8"/></div>
-              <div class="box"><img src="django1.png" alt="Logo 9"/></div>
-              <div class="box"><img src="sql.png" alt="Logo 10"/></div>
-              <div class="box"><img src="postgresql1.png" alt="Logo 11"/></div>
-              <div class="box"><img src="github.png" alt="Logo 12"/></div>
-              <div class="box"><img src="C.png" alt="Logo 13"/></div>
-              <div class="box"><img src="DS.png" alt="Logo 14"/></div>
-              <div class="box"><img src="microsoft.png" alt="Logo 15"/></div>
+              <div class="box"><img src="/skills/HTML1.png" alt="Logo 1"/></div>
+              <div class="box"><img src="/skills/CSS.png" alt="Logo 2"/></div>
+              <div class="box"><img src="/skills/JS1.png" alt="Logo 3"/></div>
+              <div class="box"><img src="/skills/react.png" alt="Logo 4"/></div>
+              <div class="box"><img src="/skills/node.png" alt="Logo 5"/></div>
+              <div class="box"><img src="/skills/ex.png" alt="Logo 6"/></div>
+              <div class="box"><img src="/skills/java.png" alt="Logo 7"/></div>
+              <div class="box"><img src="/skills/python.png" alt="Logo 8"/></div>
+              <div class="box"><img src="/skills/django1.png" alt="Logo 9"/></div>
+              <div class="box"><img src="/skills/sql.png" alt="Logo 10"/></div>
+              <div class="box"><img src="/skills/postgresql1.png" alt="Logo 11"/></div>
+              <div class="box"><img src="/skills/github.png" alt="Logo 12"/></div>
+              <div class="box"><img src="/skills/C.png" alt="Logo 13"/></div>
+              <div class="box"><img src="/skills/DS.png" alt="Logo 14"/></div>
+              <div class="box"><img src="/skills/microsoft.png" alt="Logo 15"/></div>
           </div>
         </div>
         </motion.div>

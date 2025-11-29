@@ -113,14 +113,14 @@ const Hero = () => {
           animate="animate"
           className="follow"
         >
-          <motion.a variants={followVariants} href="https://www.instagram.com/chetan.397/">
-            <img src="/instagram.png" alt="" />
+          <motion.a variants={followVariants} href="https://leetcode.com/u/Cnanda/">
+            <img src="/socials/Leetcode.png" alt="" />
           </motion.a>
           <motion.a variants={followVariants} href="https://www.linkedin.com/in/chetan-s-nanda/">
-            <img src="/linkedin.png" alt="" />
+            <img src="/socials/linkedin.png" alt="" />
           </motion.a>
           <motion.a variants={followVariants} href="https://github.com/CNAnda1623">
-            <img src="/github.png" alt="" />
+            <img src="/skills/github.png" alt="" />
           </motion.a>
           <motion.div variants={followVariants} className="followTextContainer">
             <div className="followText">FOLLOW ME</div>
